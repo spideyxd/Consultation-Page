@@ -29,7 +29,7 @@ const Banner = () => {
                 // backgroundColor: "#fabf62",
                 boxShadow: "0px 4px 6px rgba(125, 128, 170, 0.08)",
                 borderRadius: 5,
-                padding: "30px",
+                padding: "50px",
               }}
             >
               <Heading as="h1">
