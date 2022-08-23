@@ -11,6 +11,7 @@ import Clients from 'sections/clients';
 import Blog from 'sections/blog';
 import Faq from 'sections/faq';
 import Support from 'sections/support-team';
+import FormAnt from 'components/FormAnt';
 
 export default function IndexPage() {
   return (
@@ -22,6 +23,7 @@ export default function IndexPage() {
         />
         <Banner />
         <Services />
+        <FormAnt/>
         {/* <VideoCalling />
         <Pricing />
         <Clients /> */}
