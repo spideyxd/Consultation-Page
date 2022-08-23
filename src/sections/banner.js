@@ -21,7 +21,7 @@ const Banner = () => {
       <Container sx={styles.container}>
         <Grid sx={styles.grid}>
           <Flex as="figure" sx={styles.illustration} style={{height:"30vh"}}>
-            <Image src={illustration} alt="illustration" />
+            <Image   src={illustration} alt="illustration" />
           </Flex>
           <Box sx={styles.content}>
             <div sx={styles.try}
@@ -61,7 +61,8 @@ export default Banner;
 const styles = {
 
   try:{
-    mt:[10,12,19,21,null,null,]
+    px:1,
+    mt:[10,19,19,null]
   },
 
   section: {
@@ -73,12 +74,15 @@ const styles = {
     px: [3, null, null, 6],
   },
   grid: {
+    mt:[15, null, null,1,-10,6],
     alignItems: ["center"],
     gridTemplateColumns: ["1fr", null, null, null, "1fr 1fr"],
     minHeight: [null, null, null, null, "45vh", "100vh"],
-    pt: [15, null, null, 17, 12],
+    pt: [15, null, null, 17,0,10],
   },
   content: {
+    mt:[10,null,19,1,null,-20],
+    ml:[null,null,null],
     textAlign: ["center", null, null, null, "left"],
     h1: {
       color: "textSecondary",
@@ -86,6 +90,7 @@ const styles = {
       fontSize: [9, null, null, null, 12, 14, 15],
       lineHeight: [1.33, null, null, null, 1.36],
       letterSpacing: "heading",
+      
     },
     p: {
       color: "textSecondary",
@@ -125,6 +130,7 @@ const styles = {
     button: {
       minHeight: 45,
       px: ["17px", 4],
+      ml:6
     },
     ".white": {
       boxShadow: "0px 4px 6px rgba(125, 128, 170, 0.08)",
@@ -134,7 +140,7 @@ const styles = {
     },
   },
   illustration: {
-    maxWidth: [null, null, null, "80%", "none"],
+    maxWidth: [null, null, null, "60%", "none"],
     mx: [null, null, null, "auto", "unset"],
     mt: [6, null, null, null, 0],
     alignItems: "center",
