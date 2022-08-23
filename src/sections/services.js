@@ -1,32 +1,31 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Container } from 'theme-ui';
-import Slider from 'react-slick';
-import SectionHeading from 'components/section-heading';
-import Feature from 'components/cards/feature';
+import { jsx, Container } from "theme-ui";
+import Slider from "react-slick";
+import SectionHeading from "components/section-heading";
+import Feature from "components/cards/feature";
 
-import icon1 from 'assets/images/icons/services/1.png';
-import icon2 from 'assets/images/icons/services/2.png';
-import icon3 from 'assets/images/icons/services/3.png';
+import icon1 from "assets/images/icons/services/1.png";
+import icon2 from "assets/images/icons/services/2.png";
+import icon3 from "assets/images/icons/services/3.png";
 
 const data = [
   {
     id: 1,
     icon: icon1,
-    title: 'For Individuals',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: "Why Astroanalytics",
+    description: `Additional layer of data analysis on top of analysis of
+    individual horoscope driven by Vedic Astrology.
+    70% increase in accuracy of forecasting than the generalised traditional
+    horoscope prediction.
+    Get the range of easiest while most logical and practical no-cost remedies.
+    Greater than 80% client retention rate.`,
   },
   {
     id: 2,
     icon: icon2,
-    title: 'For Team',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
-  },
-  {
-    id: 3,
-    icon: icon3,
-    title: 'For Organization',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: "Our Values",
+    description: `Whether you're seeking for future forecast or best practices to restructure the areas of life. Our mantra is : analyze, identify,advise,execute,identify,advise,execute.Our mission is to create relationships, not transactions. Our key value of focus is to provide the detailed while scientific analysis to strengthen the reliability. Our promise is that we'll be there ,as questions or issues arise ,every step of the way.`,
   },
 ];
 
@@ -37,7 +36,7 @@ const settings = {
   responsive: [
     {
       breakpoint: 100000,
-      settings: 'unslick',
+      settings: "unslick",
     },
     {
       breakpoint: 768,
@@ -88,44 +87,44 @@ const styles = {
   },
   heading: {
     marginBottom: [40, 50, 60, 80],
-    maxWidth: ['none', null, null, 565, null, 'none'],
+    maxWidth: ["none", null, null, 565, null, "none"],
   },
   features: {
     gap: [6, null, null, 8],
-    display: [null, null, null, null, 'grid'],
+    display: [null, null, null, null, "grid"],
     maxWidth: 1175,
-    mx: 'auto',
-    justifyContent: ['center', null, null, 'unset'],
-    gridTemplateColumns: [null, null, null, 'repeat(3, 1fr)'],
-    '.slick-list': {
-      paddingTop: ['31px', null, null, null, 0],
+    mx: "auto",
+    justifyContent: ["center", null, null, "unset"],
+    gridTemplateColumns: [null, null, null, "repeat(3, 1fr)"],
+    ".slick-list": {
+      paddingTop: ["31px", null, null, null, 0],
     },
-    '.slick-dots': {
+    ".slick-dots": {
       margin: 0,
       padding: 0,
-      listStyle: 'none',
-      display: 'flex !important',
-      alignItems: 'center',
-      justifyContent: 'center',
+      listStyle: "none",
+      display: "flex !important",
+      alignItems: "center",
+      justifyContent: "center",
       marginTop: 5,
       li: {
-        display: 'flex',
+        display: "flex",
       },
       button: {
-        backgroundColor: '#CED7E1',
+        backgroundColor: "#CED7E1",
         border: 0,
         outline: 0,
         padding: 0,
-        margin: '0 3.5px',
+        margin: "0 3.5px",
         width: 10,
         height: 10,
-        borderRadius: '50%',
-        overflow: 'hidden',
-        textIndent: '-9999rem',
-        transition: 'all 0.3s ease-in-out 0s',
+        borderRadius: "50%",
+        overflow: "hidden",
+        textIndent: "-9999rem",
+        transition: "all 0.3s ease-in-out 0s",
       },
-      '.slick-active button': {
-        backgroundColor: 'heading',
+      ".slick-active button": {
+        backgroundColor: "heading",
         width: 13,
         height: 13,
       },
