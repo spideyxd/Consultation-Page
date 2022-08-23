@@ -24,7 +24,7 @@ const Banner = () => {
             <Image src={illustration} alt="illustration" />
           </Flex>
           <Box sx={styles.content}>
-            <div
+            <div sx={styles.try}
               style={{
                 // backgroundColor: "#fabf62",
                 boxShadow: "0px 4px 6px rgba(125, 128, 170, 0.08)",
@@ -59,6 +59,11 @@ const Banner = () => {
 export default Banner;
 
 const styles = {
+
+  try:{
+    mt:[10,12,19,21,null,null,]
+  },
+
   section: {
     background: `linear-gradient(180deg, rgba(255, 254, 252, 0.5) 0%, #FEFAF5 100%)`,
     pt: [8, null, null, null, 10, 0],

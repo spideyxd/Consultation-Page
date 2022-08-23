@@ -1,13 +1,13 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
-import { jsx, Container, Button } from 'theme-ui';
-import { useState } from 'react';
-import Sticky from 'react-stickynode';
-import { DrawerProvider } from 'contexts/drawer/drawer-provider';
-import { NavLink } from 'components/link';
-import logo from 'assets/images/logo.png';
+import { jsx, Container, Button } from "theme-ui";
+import { useState } from "react";
+import Sticky from "react-stickynode";
+import { DrawerProvider } from "contexts/drawer/drawer-provider";
+import { NavLink } from "components/link";
+import logo from "assets/images/logo.png";
 
-import menuItems from './header.data';
+import menuItems from "./header.data";
 
 export default function Header() {
   const [state, setState] = useState({
@@ -31,11 +31,9 @@ export default function Header() {
       >
         <header
           sx={styles.header}
-          className={state.isSticky ? 'is-sticky' : ''}
+          className={state.isSticky ? "is-sticky" : ""}
         >
           <Container sx={styles.container}>
-
-
             <Button variant="primary" sx={styles.button}>
               Book Us
             </Button>
@@ -48,43 +46,43 @@ export default function Header() {
 
 const styles = {
   header: {
-    backgroundColor: 'transparent',
-    position: 'fixed',
+    backgroundColor: "transparent",
+    position: "fixed",
     left: 0,
     right: 0,
     py: [5],
-    transition: 'all 0.3s ease-in-out 0s',
-    '&.is-sticky': {
-      backgroundColor: 'white',
-      boxShadow: '0px 20px 50px rgba(59, 90, 136, 0.05)',
+    transition: "all 0.3s ease-in-out 0s",
+    "&.is-sticky": {
+      backgroundColor: "white",
+      boxShadow: "0px 20px 50px rgba(59, 90, 136, 0.05)",
       py: [3],
     },
   },
   container: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
   },
   navbar: {
-    display: ['none', null, null, null, 'flex'],
-    alignItems: 'center',
+    display: ["none", null, null, null, "flex"],
+    alignItems: "center",
     a: {
-      cursor: 'pointer',
-      display: ['flex'],
+      cursor: "pointer",
+      display: ["flex"],
       fontWeight: 400,
       padding: 0,
-      transition: 'all 0.3s ease-in-out 0s',
-      '+ a': {
+      transition: "all 0.3s ease-in-out 0s",
+      "+ a": {
         ml: [null, null, null, null, 4, 7],
       },
     },
-    '.active': {
-      color: 'primary',
+    ".active": {
+      color: "primary",
     },
   },
   button: {
-    display: ['none', null, null, null, 'inline-flex'],
+    display: ["none", null, null, null, "inline-flex"],
     minHeight: 45,
-    px: '18px',
+    px: "18px",
   },
 };
