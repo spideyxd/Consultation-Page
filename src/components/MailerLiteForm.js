@@ -548,7 +548,7 @@ const MailerLiteForm = () => {
                 <span className="sr-only">Loading...</span>
               </button>
             </div>
-            <input type="hidden" name="anticsrf" defaultValue="true" />
+            <input type="hidden" name="anticsrf" defaultValue="true " />
           </form>
         </div>
         <div

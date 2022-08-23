@@ -21,7 +21,7 @@ const Banner = () => {
       <Container sx={styles.container}>
         <Grid sx={styles.grid}>
           <Flex as="figure" sx={styles.illustration} style={{height:"30vh"}}>
-            <Image   src={illustration} alt="illustration" />
+            <center><Image   src={illustration} alt="illustration" /></center>
           </Flex>
           <Box sx={styles.content}>
             <div sx={styles.try}
