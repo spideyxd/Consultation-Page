@@ -1,22 +1,22 @@
 import { Button, message, Steps } from 'antd';
 import 'antd/dist/antd.css';
 import React, { useState } from 'react';
-import Tryin from './Tryin';
+import MailerLiteForm from './MailerLiteForm';
 import Slot from './Slot';
 
 const { Step } = Steps;
 const steps = [
   {
     title: 'First',
-    content: <Tryin/>,
-  },
-  {
-    title: 'Second',
     content:<Slot/> ,
   },
   {
+    title: 'Second',
+    content: "Payment",
+  },
+  {
     title: 'Last',
-    content:  'ok',
+    content: <MailerLiteForm/>,
   },
 ];
 
