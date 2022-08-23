@@ -66,15 +66,15 @@ const styles = {
   },
 
   section: {
-    background: `linear-gradient(180deg, rgba(255, 254, 252, 0.5) 0%, #FEFAF5 100%)`,
-    pt: [8, null, null, null, 10, 0],
+    // background: `linear-gradient(180deg, rgba(255, 254, 252, 0.5) 0%, #FEFAF5 100%)`,
+    pt: [8, null, null, null,0, 0],
     pb: [8, null, null, null, 10, 0],
   },
   container: {
     px: [3, null, null, 6],
   },
   grid: {
-    mt:[15, null, null,1,-10,6],
+    mt:[15, null, null,1,-20,-10],
     alignItems: ["center"],
     gridTemplateColumns: ["1fr", null, null, null, "1fr 1fr"],
     minHeight: [null, null, null, null, "45vh", "100vh"],
