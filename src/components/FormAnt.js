@@ -40,7 +40,7 @@ const FormAnt = () => {
       </Steps>
       <div
         style={{
-          marginTop: "5vh",
+          marginTop: "1vh",
           marginBottom: "5vh",
           height: "70%",
         }}
