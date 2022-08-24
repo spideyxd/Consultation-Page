@@ -15,6 +15,8 @@ import { IoIosArrowForward } from "react-icons/io";
 import Image from "components/image";
 import illustration from "assets/images/banner.png";
 
+import { Link } from 'react-scroll';
+
 const Banner = () => {
   return (
     <section id="home" sx={styles.section}>
@@ -44,7 +46,9 @@ const Banner = () => {
             </div>
 
             <div sx={styles.buttonGroup}>
-              <Button variant="primary">Book us</Button>
+
+               <Link  offset={-50}
+      duration={500} to="steps" smooth={true} > <Button variant="primary">Book us</Button> </Link> 
               <Button variant="white" className="white">
                 Free Trial
               </Button>

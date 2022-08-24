@@ -3,8 +3,10 @@ import { InlineWidget } from "react-calendly";
 
 const Slot = () => {
   return (
-    <div className="Slot">
-      <InlineWidget pageSettings={{
+    <div  className="Slot">
+      <InlineWidget styles={{
+  height: '700px'
+}}  pageSettings={{
   backgroundColor: 'ffffff',
   hideEventTypeDetails: false,
   hideLandingPageDetails: false,
