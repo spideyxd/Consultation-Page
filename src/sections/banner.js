@@ -22,8 +22,8 @@ const Banner = () => {
     <section id="home" sx={styles.section}>
       <Container sx={styles.container}>
         <Grid sx={styles.grid}>
-          <Flex as="figure" sx={styles.illustration} style={{height:"30vh"}}>
-            <center><Image   src={illustration} alt="illustration" /></center>
+          <Flex   as="figure" sx={styles.illustration} style={{height:"30vh" }}>
+            <Image src={illustration} alt="illustration" />
           </Flex>
           <Box sx={styles.content}>
             <div sx={styles.try}
@@ -35,7 +35,7 @@ const Banner = () => {
               }}
             >
               <Heading as="h1">
-                World's first data driven Astrology Platform
+                World's First Data Driven Astrology Platform
               </Heading>
               <Text as="p">
                 Additional layer of data analysis on top of analysis of

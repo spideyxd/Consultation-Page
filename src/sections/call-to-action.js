@@ -3,6 +3,7 @@
 import { jsx } from 'theme-ui';
 import { Container, Box, Heading, Button } from 'theme-ui';
 
+import { Link } from 'react-scroll';
 import BgShape from 'assets/images/shape-1.svg';
 import shapeTop from 'assets/images/icons/btn-shape-top.svg';
 import shapeBottom from 'assets/images/icons/btn-shape-bottom.svg';
@@ -16,7 +17,9 @@ const CallToAction = () => {
             Do you have any question? Feel free to Book a consultation with us
           </Heading>
           <Box sx={styles.btnWrapper}>
-            <Button variant="text">Book us now</Button>
+          <Link  offset={-50}
+      duration={500} to="steps" smooth={true} > 
+            <Button variant="text">Book Us Now</Button></Link>
           </Box>
         </Box>
       </Container>

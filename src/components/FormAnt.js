@@ -31,9 +31,11 @@ const FormAnt = () => {
     setCurrent(current - 1);
   };
 
+  let percentArr=[33.3333333333,66.6666666667,100];
+
   return (
     <>
-      <Steps id="steps" current={current}>
+      <Steps id="steps" current={current} percent={percentArr[current]}>
         {steps.map((item) => (
           <Step key={item.title} title={item.title} />
         ))}

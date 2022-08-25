@@ -62,13 +62,13 @@ const settings = {
 const Services = () => {
   return (
     <section id="services" sx={styles.section}>
-      <Container>
+      <Container  >
         <SectionHeading
           sx={styles.heading}
           slogan="Ideal solutions for you"
           title="Go beyond ultimate Services"
         />
-        <Slider sx={styles.features} {...settings}>
+        <Slider  sx={styles.features} {...settings}>
           {data?.map((item) => (
             <Feature key={item.id} className="feature-item" data={item} />
           ))}
