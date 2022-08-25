@@ -5,7 +5,7 @@ const Slot = () => {
   return (
     <div  className="Slot">
       <InlineWidget styles={{
-  height: '700px'
+  height: '650px'
 }}  pageSettings={{
   backgroundColor: 'ffffff',
   hideEventTypeDetails: false,

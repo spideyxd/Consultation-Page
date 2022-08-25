@@ -47,8 +47,8 @@ const Banner = () => {
 
             <div sx={styles.buttonGroup}>
 
-               <Link  offset={-50}
-      duration={500} to="steps" smooth={true} > <Button variant="primary">Book us</Button> </Link> 
+               <Link  offset={-20}
+      duration={500} to="steps" smooth={true} > <Button variant="primary" className="myColor" >Book us</Button> </Link> 
               <Button variant="white" className="white">
                 Free Trial
               </Button>
@@ -125,7 +125,7 @@ const styles = {
       minHeight: 24,
       alignItems: "center",
       px: "11px",
-      borderRadius: 50,
+      borderRadius: 50, 
       mr: "12px",
     },
   },
@@ -136,7 +136,12 @@ const styles = {
       px: ["17px", 4],
       ml:6
     },
+
+    ".myColor":{
+      backgroundColor:" #F28C28"
+    },
     ".white": {
+    
       boxShadow: "0px 4px 6px rgba(125, 128, 170, 0.08)",
       borderRadius: 5,
       fontWeight: 500,

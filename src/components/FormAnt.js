@@ -6,14 +6,14 @@ import Slot from "./Slot";
 
 const { Step } = Steps;
 const steps = [
-  {
-    title: "Book Slot",
-    content: <Slot />,
-  },
-  {
-    title: "Pay",
-    content: "Payment",
-  },
+  // {
+  //   title: "Book Slot",
+  //   content: <Slot />,
+  // },
+  // {
+  //   title: "Pay",
+  //   content: "Payment",
+  // },
   {
     title: "Submit Details",
     content: <MailerLiteForm />,
@@ -31,7 +31,7 @@ const FormAnt = () => {
     setCurrent(current - 1);
   };
 
-  let percentArr=[33.3333333333,66.6666666667,100];
+  let percentArr=[100];
 
   return (
     <>
@@ -42,7 +42,7 @@ const FormAnt = () => {
       </Steps>
       <div
         style={{
-          marginTop: "1vh",
+          marginTop: "0vh",
           marginBottom: "5vh",
           height: "70%",
         }}
@@ -53,7 +53,7 @@ const FormAnt = () => {
       <div
         className="steps-action"
         style={{
-          marginTop: "5vh",
+          marginTop: "3vh",
           marginBottom: "5vh",
           display: "flex",
           justifyContent: "center"

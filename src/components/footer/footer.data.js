@@ -1,17 +1,16 @@
 import facebook from 'assets/images/icons/facebook.png';
 import twitter from 'assets/images/icons/twitter.png';
+import instagram from 'assets/images/icons/instagram.png';
 import github from 'assets/images/icons/github.png';
 import dribbble from 'assets/images/icons/dribbble.png';
+
 
 export const menuItems = [
   {
     id: 2,
     title: 'About Us',
     items: [
-      {
-        path: '#!',
-        label: 'Support Center',
-      },
+     
       {
         path: '#!',
         label: 'Customer Support',
@@ -24,10 +23,7 @@ export const menuItems = [
         path: '#!',
         label: 'Copyright',
       },
-      {
-        path: '#!',
-        label: 'Popular Campaign',
-      },
+      
     ],
   },
   {
@@ -46,14 +42,7 @@ export const menuItems = [
         path: '#!',
         label: 'Terms & Conditions',
       },
-      {
-        path: '#!',
-        label: 'Site Map',
-      },
-      {
-        path: '#!',
-        label: 'Store Hours',
-      },
+      
     ],
   },
   {
@@ -70,6 +59,12 @@ export const menuItems = [
         icon: twitter,
         label: 'Twitter',
       },
+      {
+        path: '#!',
+        icon : instagram,
+        label: 'Instagram'
+
+      }
       
     ],
   },
