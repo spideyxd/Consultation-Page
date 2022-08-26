@@ -10,11 +10,11 @@ export default function Layout({ children }) {
     <>
     <img
     src={logo}
-    style={{Top: "0", right: "0" }}
+    style={{Top: "0", alignContent :"center", maxWidth:"480px",width:"100%", right: "0" }}
   />
     <Flex
-      sx={{
-        minHeight: "100vh",
+      sx={{ 
+       
         flexDirection: "column",
         justifyContent: "space-between",
       }}

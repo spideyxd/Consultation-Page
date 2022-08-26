@@ -22,13 +22,22 @@ const Banner = () => {
     <section id="home" sx={styles.section}>
       <Container sx={styles.container}>
         <Grid sx={styles.grid}>
-          <Flex   as="figure" sx={styles.illustration} style={{height:"30vh" }}>
-            <Image src={illustration} alt="illustration" />
+          <Flex   as="figure" sx={styles.illustration}>
+            <Image src={illustration} alt="illustration"  style={{width: "100%",
+    maxWidth: "543px",
+    height:" auto",
+    boxSizing: "border-box",
+    height: "auto",
+    marginRight:"auto",
+    marginLeft:"auto"
+    }}  />
           </Flex>
           <Box sx={styles.content}>
             <div sx={styles.try}
               style={{
                 // backgroundColor: "#fabf62",
+
+                // marginTop: "-40px",
                 boxShadow: "0px 4px 6px rgba(125, 128, 170, 0.08)",
                 borderRadius: 5,
                 padding: "50px",
@@ -66,7 +75,7 @@ const styles = {
 
   try:{
     px:1,
-    mt:[10,19,19,null]
+    mt:[null,null,19,null,null,null]
   },
 
   section: {
@@ -149,7 +158,6 @@ const styles = {
     },
   },
   illustration: {
-    maxWidth: [null, null, null, "60%", "none"],
     mx: [null, null, null, "auto", "unset"],
     mt: [6, null, null, null, 0],
     alignItems: "center",

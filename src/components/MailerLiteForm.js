@@ -13,10 +13,10 @@ const MailerLiteForm = () => {
       type="text/css"
       dangerouslySetInnerHTML={{
         __html:
-          "\n\t#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  width:600px;}\n\t/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.\n\t   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */\n"
+          "\n\t#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;}\n\t/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.\n\t   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */\n"
       }}
     />
-    <div id="mc_embed_signup" style={{width:"auto"}}>
+    <div  id="mc_embed_signup" style={{   width:"auto"}}>
       <form
         action="https://astroanalytics.us12.list-manage.com/subscribe/post?u=9846d631b2ed2542b50a546fa&id=721a8792cc&f_id=00eab5e0f0"
         method="post"

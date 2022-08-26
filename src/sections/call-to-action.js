@@ -33,7 +33,7 @@ const styles = {
     position: 'relative',
     zIndex: 1,
     ':before': {
-      backgroundColor: '#F9FAFC',
+      backgroundColor:" #F28C28",
       bottom: 0,
       content: `''`,
       height: '50%',

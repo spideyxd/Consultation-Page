@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <Fragment>
       <CallToAction />
-      <Box as="footer" sx={styles.footer}>
+      <Box as="footer"  sx={styles.footer}>
         <Container>
           <Box sx={styles.footerTopInner}>
             <Box sx={styles.about}>
@@ -31,6 +31,7 @@ export default function Footer() {
               <Widget key={id} title={title} items={items} />
             ))}
           </Box>
+
         </Container>
       </Box>
     </Fragment>
@@ -39,7 +40,8 @@ export default function Footer() {
 
 const styles = {
   footer: {
-    backgroundColor: '#F9FAFC',
+    width:"100vw",
+    backgroundColor:" #F28C28",
     pt: [8, null, null, 10],
     pb: [8, null, null, 15],
   },

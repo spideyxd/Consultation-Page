@@ -13,6 +13,8 @@ import Faq from 'sections/faq';
 import Support from 'sections/support-team';
 import FormAnt from 'components/FormAnt';
 
+
+
 export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>

@@ -16,7 +16,7 @@ class CustomDocument extends Document {
             crossOrigin="anonymous"
           />
         </Head>
-        <body>
+        <body >
           <Main />
           <NextScript />
         </body>
