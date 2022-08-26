@@ -8,10 +8,11 @@ import Footer from "./footer/footer";
 export default function Layout({ children }) {
   return (
     <>
+    <div style={{display:"flex", padding:"5px ,5px" ,justifyContent:"center" }} >
     <img
     src={logo}
-    style={{Top: "0", alignContent :"center", maxWidth:"480px",width:"100%", right: "0" }}
-  />
+    style={{maxWidth:"480px",width:"100%",marginLeft:"15px",marginRight:"15px" }}
+  /></div>
     <Flex
       sx={{ 
        
