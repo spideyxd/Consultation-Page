@@ -17,7 +17,7 @@ const CallToAction = () => {
             Do you have any question? Feel free to Book a consultation with us
           </Heading>
           <Box sx={styles.btnWrapper}>
-          <Link  offset={-20}
+          <Link  offset={-200}
       duration={500} to="steps" smooth={true} > 
             <Button variant="text">Book Us Now</Button></Link>
           </Box>

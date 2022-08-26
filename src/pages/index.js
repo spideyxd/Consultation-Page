@@ -23,7 +23,7 @@ export default function IndexPage() {
         />
         <Banner />
         <Services />
-        <FormAnt/>
+        <FormAnt/>  
         {/* <VideoCalling />
         <Pricing />
         <Clients /> */}

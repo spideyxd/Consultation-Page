@@ -47,7 +47,7 @@ const Banner = () => {
 
             <div sx={styles.buttonGroup}>
 
-               <Link  offset={-20}
+               <Link  offset={-200}
       duration={500} to="steps" smooth={true} > <Button variant="primary" className="myColor" >Book us</Button> </Link> 
               <Button variant="white" className="white">
                 Free Trial
