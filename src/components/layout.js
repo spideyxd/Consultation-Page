@@ -22,10 +22,7 @@ export default function Layout({ children }) {
     >
       {/* <Header /> */}
       {/* <LogoHeader/> */}
-
-     
-
-      <main
+       <main
         sx={{
           variant: "layout.main",
         }}

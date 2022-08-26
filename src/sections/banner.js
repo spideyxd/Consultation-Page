@@ -35,12 +35,9 @@ const Banner = () => {
           <Box sx={styles.content}>
             <div sx={styles.try}
               style={{
-                // backgroundColor: "#fabf62",
-
-                // marginTop: "-40px",
                 boxShadow: "0px 4px 6px rgba(125, 128, 170, 0.08)",
                 borderRadius: 5,
-                padding: "50px",
+              
               }}
             >
               <Heading as="h1">
@@ -75,23 +72,22 @@ const styles = {
 
   try:{
     px:1,
-    mt:[null,null,19,null,null,null]
+    mt:[null,null,null,null,null,19]
   },
 
   section: {
-    // background: `linear-gradient(180deg, rgba(255, 254, 252, 0.5) 0%, #FEFAF5 100%)`,
-    pt: [8, null, null, null,0, 0],
+    // pt: [8, null, null, null,null,0],
     pb: [8, null, null, null, 10, 0],
   },
   container: {
     px: [3, null, null, 6],
   },
   grid: {
-    mt:[15, null, null,1,-20,-10],
+    mt:[null,null,null,10 ,null,-10],
     alignItems: ["center"],
     gridTemplateColumns: ["1fr", null, null, null, "1fr 1fr"],
     minHeight: [null, null, null, null, "45vh", "100vh"],
-    pt: [15, null, null, 17,0,10],
+    pt: [null, null, null, null,null,null],
   },
   content: {
     mt:[10,null,19,1,null,-20],
